@@ -1,0 +1,53 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro-area{
+    height: 25vh;
+    background-image: url('./assets/Miami.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-name{
+    color: rgb(0, 0, 0);
+    background-color: rgba(114, 114, 114, 0.8);
+    padding: 5px;
+}
+
+#navbar{
+    background-color: rgb(155, 187, 245);
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: flex;
+}
+
+#navbar a:hover{
+    transition: ease-in-out 0.2s;
+    color: rgb(79, 79, 79);
+}
+
+#navbar ul {
+    list-style-type: none;
+}

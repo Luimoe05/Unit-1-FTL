@@ -1,0 +1,32 @@
+#food-guide-header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.food-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 5px rgba(200, 199, 199, 0.5);
+    max-width: 80%;
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 80px;
+}
+
+.food-info-container h2, p{
+    margin-bottom: 15px;
+}
+
+.location-tag{
+    margin-bottom: 15px;
+}
+
+#last-container{
+    margin-bottom: 10px;
+}

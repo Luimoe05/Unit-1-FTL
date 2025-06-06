@@ -1,0 +1,88 @@
+.main-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 20px 5px rgba(200, 199, 199, 0.5);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    outline: 1px solid grey;
+}
+
+
+.main-page-content #main-page-header{
+    margin-bottom: 15px;
+}
+
+#beach-picture{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-page-content p{
+    max-width: 70%;
+}
+
+.main-page-content h3{
+    font-size: 1.5rem;
+}
+
+.typing-animation{
+    display: inline-block;
+}
+
+.text{
+    letter-spacing: 2px;
+    border-right: 3px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(47),
+        cursor .4s step-end infinite alternate;
+}
+
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes cursor {
+    50% {border-color: transparent}
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+@media screen and (max-width: 767px){
+    *{
+        max-width: 100%;
+    }
+
+    .main-page-content{
+        padding: 30px;
+        margin: 10px;
+    }
+
+    .text{
+        white-space: normal;
+        animation: none;
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 5000px){
+    .main-page-content{
+        max-width: 800px;
+    }
+    iframe{
+        height: 400px;
+    }
+}
