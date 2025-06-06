@@ -4,7 +4,7 @@
 
 Submitted by: **Luis-Angel Moreno**
 
-Estimated time spent: **7** hours spent in total
+Estimated time spent: **10** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
